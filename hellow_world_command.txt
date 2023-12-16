@@ -1,0 +1,41 @@
+PS C:\Users\rueno\OneDrive> mkdir git_challenge
+
+
+
+
+PS C:\Users\rueno\OneDrive> git init
+Reinitialized existing Git repository in C:/Users/rueno/OneDrive/Initialized empty Git repository in C:/Users/rueno/OneDrive/git_challenge/.git/
+PS C:\Users\rueno\OneDrive\git_challenge> git add hellow_world.txt
+PS C:\Users\rueno\OneDrive\git_challenge> git commit -m "Hellow, 
+[main (root-commit) 730629a] Hellow, world!
+ 1 file changed, 1 insertion(+)
+PS C:\Users\rueno\OneDrive\git_challenge> git add .
+PS C:\Users\rueno\OneDrive\git_challenge> git commit -m "こんにち
+は、世界！"
+[main 9e00a09] こんにちは、世界！
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 "\346\226\260\343\201\227\343\201\204\343\203\206\343\202\255\343\202\271\343\203\210 \343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210.txt"
+PS C:\Users\rueno\OneDrive\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+Author: satiko900 <r.ueno.0706@gmail.com>
+Date:   Fri Dec 15 23:33:53 2023 +0900
+
+    こんにちは、世界！
+
+commit 730629ac8910afd7743004762b74cfaf23ed06d3
+Author: satiko900 <r.ueno.0706@gmail.com>
+Date:   Fri Dec 15 23:31:22 2023 +0900
+
+    Hellow, world!
+
+ 
+PS C:\Users\rueno> cd C:\Users\rueno\OneDrive\デスクトップ       
+PS C:\Users\rueno\OneDrive\デスクトップ> cd kadai_004
+PS C:\Users\rueno\OneDrive\デスクトップ\kadai_004> git init      
+Initialized empty Git repository in C:/Users/rueno/OneDrive/デス 
+クトップ/kadai_004/.git/
+PS C:\Users\rueno\OneDrive\デスクトップ\kadai_004> git mv C:\Users\rueno\OneDrive\git_challenge C:\Users\rueno\OneDrive\デスクトッ
+プ
+fatal: 'C:\Users\rueno\OneDrive\git_challenge' is outside repository at 'C:/Users/rueno/OneDrive/デスクトップ/kadai_004'
+PS C:\Users\rueno\OneDrive\デスクトップ\kadai_004> 
